@@ -1,0 +1,75 @@
+/* Start Contact */
+.contactt {
+  padding: var(--padding-normal) var(--padding);
+  position: relative;
+}
+.contactt form {
+  background-color: var(--dark);
+  padding: var(--padding);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: var(--padding);
+}
+.contactt form input,
+textarea {
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 100%;
+}
+.contactt form input[type="submit"] {
+  background-color: var(--primary);
+  border: none;
+  color: var(--light);
+  transition: var(--transition);
+}
+.contactt form input[type="submit"]:hover {
+  color: var(--dark);
+}
+@media (max-width: 768px) {
+  .contactt form input,
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    font-size: 16px;
+  }
+}
+.contactt form h2 {
+  font-size: 35px;
+  color: var(--light);
+}
+@media (max-width: 768px) {
+  .contactt form h2 {
+    font-size: 25px;
+  }
+}
+/* End Contact */
+
+/* Strat Detail */
+.detail {
+  padding: var(--padding-normal) var(--padding);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.detail img {
+  width: 70%;
+  margin: auto;
+}
+.detail h2 {
+  font-size: 45px;
+  margin: 0px;
+  margin-top: 20px;
+}
+.detail p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--dark);
+  line-height: 1.4;
+}
+/* End Detail */
